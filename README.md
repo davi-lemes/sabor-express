@@ -1,4 +1,4 @@
-# sabor-express
+# Sabor Express
 Projeto de estudo feito nas aulas de Python da Alura.
 Aplicação de terminal para cadastrar, listar e ativar restaurantes.
 
