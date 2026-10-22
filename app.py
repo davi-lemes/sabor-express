@@ -62,7 +62,7 @@ def listar_restaurantes():
     for restaurante in restaurantes:
         nome_restaurante = restaurante["nome"]
         categoria = restaurante["categoria"]
-        ativo = restaurante["ativo"]
+        ativo = "ativado" if restaurante["ativo"] else "desativado"
         print(f"- {nome_restaurante} | {categoria} | {ativo}")
 
     voltar_ao_menu_principal()
@@ -80,7 +80,7 @@ def alternar_estado_restaurante():
             print(mensagem)
     if not restaurante_encontrado:
         print(f"O Restaurante {nome_restaurante} não foi encontrado")   
-         
+
     voltar_ao_menu_principal()
 
 def escolher_opcao():
