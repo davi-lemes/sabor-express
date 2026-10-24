@@ -33,6 +33,7 @@ def voltar_ao_menu_principal():
 
 
 def opcao_invalida():
+    os.system("cls")
     print("Opção inválida!")
     voltar_ao_menu_principal()
 
