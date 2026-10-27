@@ -6,6 +6,7 @@ restaurantes = [{"nome":"Praça", "categoria":"Japonesa", "ativo":False},
 
 
 def exibir_nome_do_programa():
+    """Essa função é responsável por exibir o nome do programa estilizado ao ser inicializado"""
     print("""
 ░██████╗░█████╗░██████╗░░█████╗░██████╗░  ███████╗██╗░░██╗██████╗░██████╗░███████╗░██████╗░██████╗
 ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗  ██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝
