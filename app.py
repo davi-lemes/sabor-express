@@ -18,6 +18,7 @@ def exibir_nome_do_programa():
 
 
 def exibir_opcoes():
+    """Essa função é responsável por exibir as opções disponíveis no menu principal"""
     print("1. Cadastrar restaurante")
     print("2. Listar restaurante")
     print("3. Alternar estado do restaurante")
