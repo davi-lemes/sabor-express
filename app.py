@@ -70,7 +70,7 @@ def cadastrar_novo_restaurante():
 
     Outputs:
     -Adiciona um novo restaurante na lista de restaurantes
-    
+
     """
 
     exibir_subtitulo("Cadastro de novos restaurantes")
@@ -84,6 +84,14 @@ def cadastrar_novo_restaurante():
 
 
 def listar_restaurantes():
+    """Função responsável por listar os restaurantes cadastrados
+    
+    Outputs:
+    - Exibe a lista de restaurantes
+    
+    """
+
+
     exibir_subtitulo("Listando os restaurantes")
 
     print(f"{"Nome do restaurante".ljust(22)} | {"Categoria".ljust(20)} | Status")
