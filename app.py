@@ -26,6 +26,7 @@ def exibir_opcoes():
 
 
 def finalizar_app():
+    """Exibe o subtitulo sinalizando que o aplicativo está sendo finalizado"""
     exibir_subtitulo("Finalizando o app")
 
 
