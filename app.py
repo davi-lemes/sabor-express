@@ -36,6 +36,10 @@ def voltar_ao_menu_principal():
 
 
 def opcao_invalida():
+    """Exibe um aviso de que a opção escolhida é inválida e retorna ao menu principal
+    Outputs:
+    - Retorna ao menu principal        
+    """
     os.system("cls")
     print("Opção inválida!")
     voltar_ao_menu_principal()
