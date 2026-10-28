@@ -112,7 +112,7 @@ def alternar_estado_restaurante():
     Outputs:
     - Exibe mensagem indicando se o restaurante foi ativado ou desativado
     - Exibe mensagem de erro caso o restaurante não seja encontrado
-    
+
     """
 
 
@@ -132,6 +132,12 @@ def alternar_estado_restaurante():
     voltar_ao_menu_principal()
 
 def escolher_opcao():
+    """Função responsavel por solicitar e executar a opção escolhida pelo usuário
+    
+    Outputs:
+    - Executa a opção escolhida pelo usuário
+    
+    """
 
     try:
         opcao_escolhida = int(input("Escolha uma opção: "))
