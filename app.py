@@ -136,7 +136,7 @@ def escolher_opcao():
     
     Outputs:
     - Executa a opção escolhida pelo usuário
-    
+
     """
 
     try:
@@ -157,6 +157,8 @@ def escolher_opcao():
 
 
 def main():
+    """Funcão principal responsável pela inicialização do programa"""
+
     os.system("cls")
     exibir_nome_do_programa()
     exibir_opcoes()
