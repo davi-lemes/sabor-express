@@ -88,7 +88,7 @@ def listar_restaurantes():
     
     Outputs:
     - Exibe a lista de restaurantes
-    
+
     """
 
 
@@ -104,6 +104,18 @@ def listar_restaurantes():
     voltar_ao_menu_principal()
 
 def alternar_estado_restaurante():
+    """Funcao responsavel por alterar o estado ativo/desativado de um restaurantes
+    
+    Inputs:
+    - Nome do restaurante que deseja alterar o estado (digitado pelo usuário)
+    
+    Outputs:
+    - Exibe mensagem indicando se o restaurante foi ativado ou desativado
+    - Exibe mensagem de erro caso o restaurante não seja encontrado
+    
+    """
+
+
     exibir_subtitulo("Alternando estado do restaurante")
     nome_restaurante = input("Digite o nome do restaurante que deseja alternar o estado: ")
     restaurante_encontrado = False
