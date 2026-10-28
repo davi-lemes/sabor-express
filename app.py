@@ -40,7 +40,7 @@ def opcao_invalida():
     Outputs:
     - Retorna ao menu principal        
     """
-    os.system("cls")
+    os.system('cls' if os.name == 'nt' else 'clear')
     print("Opção inválida!")
     voltar_ao_menu_principal()
 
@@ -51,9 +51,7 @@ def exibir_subtitulo(texto):
     Inputs:
     - texto: str - O texto escolhido
     """
-    os.system(
-        "cls"
-    )  # para importar um comando da biblioteca os que limpa meu terminal antes de exibir a mensagem
+    os.system('cls' if os.name == 'nt' else 'clear') # para importar um comando da biblioteca os que limpa meu terminal antes de exibir a mensagem
     linha = "*" * (len(texto))
     print(linha)
     print(texto)
