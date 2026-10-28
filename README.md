@@ -4,9 +4,11 @@ Aplicação de terminal para cadastrar, listar e alternar estados de restaurante
 
 ## Como rodar
 
-    python app.py
+Com o Python 3 instalado, execute no terminal:
 
-Observação: usa `os.system('cls')`, então funciona no Windows.
+```bash
+python app.py
+```
 
 ## Funcionalidades
 
