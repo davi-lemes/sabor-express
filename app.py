@@ -46,6 +46,11 @@ def opcao_invalida():
 
 
 def exibir_subtitulo(texto):
+    """exibe um subtitulo com base no texto escolhido como parâmetro
+    
+    Inputs:
+    - texto: str - O texto escolhido
+    """
     os.system(
         "cls"
     )  # para importar um comando da biblioteca os que limpa meu terminal antes de exibir a mensagem
